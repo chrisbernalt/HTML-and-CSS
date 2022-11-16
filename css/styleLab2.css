@@ -1,0 +1,65 @@
+body {
+  background-color: lavender;
+}
+
+h1 {
+  color: purple;
+  width: auto;
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+
+td {
+  font-family: fantasy;
+  color: darkslategray;
+  width: auto;
+  text-align: center;
+}
+
+.a:link {
+  color: purple;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+  cursor: crosshair;
+}
+
+.font {
+  font-family: Verdana, sans-serif;
+  border: 2px blue solid;
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.days {
+  font-family: Verdana, sans-serif;
+  border: 2px maroon solid;
+  background-color: lavenderblush
+}
+
+.th {border: 2px blue solid;
+}
+
+.round {
+  border-radius: 50%;
+  width: 150px
+}
+
+.moon {
+  width: 100px;
+}
