@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+a:link {
+  color: magenta;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: blue;
+}
+a:hover {
+  color: green;
+  cursor: crosshair;
+}
+</style>
+
+  <title>Schedule for Chris - cg3fa22br - Fall, 2022</title>
+  <link rel="stylesheet" href="css/styleLab2.css">
+</head>
+
+<body>
+  <h1>Chris' Personal Schedule (HTML + CSS)</h1>
+
+  <dl>
+  <dt>How do you define a table?</dl>
+  <dd>A table is a structure set of data in rows and columns and allows for an easy way to ook at the relationship between categories of information.</dd>
+  </dl>
+
+  <dl>
+  <dt>Describe when to use the following HTML elements:</dl>
+  <dd>< tr >: This is used to create a single table row.<dt>
+  <dd>< th >: This tag is used to add a heading, as it will define the cell as a heading.<dt>
+  <dd>< td >: This tag is used to add the content of the table, which is also a column that is being added.<dt>
+  <dd>< thead >: This element is used to indicate that the value makes up the header of the table, which allows for the rest of the table to be scrolled independently of the header. <dt>
+  <dd>< tfoot >: This element is used to indicate that the value makes up the footer of the table, similarly to the element thead.<dt>
+  <dd>< caption >: Lastly, this element simply allows us to add a caption to a table.<dt>
+  </dl>
+
+  <dl>
+  <dt>What is the difference between colspan and rowspan?</dl>
+  <dd>Colspan allows for the merging of data across columns, or in other words it spans columns. Similarly, rowspan allows for the merging of cells, but in this case it is across rows (going down a column), or in other words spans rows.</dd>
+  </dl>
+
+  <dl>
+  <dt>What is the difference between cells spacing and padding?</dl>
+  <dd>Cell spacing refers to the spacing between adjacent cells, while cell padding refers to much space exists between the content of an individual cell and its corresponding cell border.</dd>
+  </dl>
+
+  <dl>
+  <dt>How do you define table borders using CSS?</dl>
+  <dd>Using CSS, you must add the "border-style" property after creating a class selector or indicating what selector you'd like styled and then select the kind of border you want. </dd>
+  </dl>
+
+  <dl>
+  <dt>How do you control border widths using CSS?</dl>
+  <dd>Border widths can be controlled using CSS using the "border-width" property in conjunction with the "border-style" property. You can actually edit all four sides to make them either the same or different widths. </dd>
+  </dl>
+
+<br />
+<br />
+
+<table border="2">
+  <caption> My Weekly Schedule</caption>
+  <tr>
+    <th></th>
+    <th class="font"> 6:30-7:30am</th>
+    <th class="font"> 7:30-8:30am</th>
+    <th class="font"> 8:30-9:30am</th>
+    <th class="font"> 9:30-10:30am</th>
+    <th class="font"> 10:30-11:30am</th>
+    <th class="font"> 11:30-12:30pm</th>
+    <th class="font"> 12:30-1:30pm</th>
+    <th class="font"> 1:30-2:30pm</th>
+    <th class="font"> 2:30-3:30pm</th>
+    <th class="font"> 3:30-4:30pm</th>
+    <th class="font"> 4:30-5:30pm</th>
+    <th class="font"> 5:30-6:30pm</th>
+    <th class="font"> 6:30-7:30pm</th>
+    <th class="font"> 7:30-8:30pm</th>
+    <th class="font"> 8:30-9:30pm</th>
+    <th class="font"> 9:30-10:30pm</th>
+  </tr>
+
+  <tr>
+  <th class="days"> Monday</th>
+  <td rowspan="4">Breakfast</td>
+  <td rowspan="4">Drive to School/Work</td>
+  <td>Work</td>
+  <td>COGS 3 Section</td>
+  <td colspan="2">Work</td>
+  <td rowspan= "7">Lunch</td>
+  <td>BIPN 145 Lecture</td>
+  <td>--</td>
+  <td colspan="2" rowspan="5">Work</td>
+  <td rowspan="7">Dinner</td>
+  <td colspan="3">Work</td>
+  <td rowspan="7">Get ready for next day, sleep
+    <img src ="images/Sleep.svg.png" class="moon" />
+  </td>
+  </tr>
+
+  <tr>
+  <th class="days"> Tuesday</th>
+  <td colspan="4">
+    <a href="https://sites.google.com/ucsd.edu/bipn145/home?authuser=0" target="_blank" >BIPN 145 Lab</a>
+    <br />
+    <img src ="images/neurobiology.jpg" class="round"/>
+  </td>
+  <td colspan="2">VIS 1 Section</td>
+  <td colspan="2">
+    <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank" >COGS 3 Lecture</a>
+  <br />
+    <img src="images/ElementaryComputing.png" class="round"/>
+  </td>
+  <td>--</td>
+  </tr>
+  <tr>
+  <th class="days"> Wednesday</th>
+  <td colspan="4">
+    <a href="https://www.rchsd.org" target="_blank">Rady Children's Research</a>
+  <br />
+    <img src ="images/Rady-Childrens-Hospital-500-x-325-1.png" class="round"/>
+  </td>
+  <td>BIPN 145 Lecture</td>
+  <td>--</td>
+  <td colspan="2">
+    <a href="https://visarts.ucsd.edu/" target="_blank">VIS 1 Lecture</a>
+  <br />
+  <img src="images/152-1525673_vector-illustration-of-visual-fine-arts-artists-paintbrushes.png" class="round"/>
+  </td>
+  <td>--</td>
+  </tr>
+
+  <tr>
+  <th class="days"> Thursday</th>
+  <td colspan="4">
+    <a href="https://sites.google.com/ucsd.edu/bipn145/home?authuser=0" target="_blank" >BIPN 145 Lab</a>
+    <br />
+    <img src ="images/neurobiology.jpg" class="round"/>
+  </td>
+  <td colspan="2">VIS 1 Section</td>
+  <td colspan="2">
+    <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank" >COGS 3 Lecture</a>
+  <br />
+    <img src="images/ElementaryComputing.png" class="round"/>
+  </td>
+  <td>--</td>
+  </tr>
+
+  <tr>
+  <th class="days"> Friday</th>
+  <td colspan="3" rowspan="3">Sleep
+    <br/>
+    <img src ="images/Sleep.svg.png" class="moon" />
+  </td>
+  <td rowspan="3">Breakfast</td>
+  <td colspan="2">Work</td>
+  <td>BIPN 145 Lecture</td>
+  <td>--</td>
+  <td colspan="3">Rest</td>
+  </tr>
+
+  <tr>
+  <th class="days"> Saturday</th>
+    <td colspan="2" rowspan="2">Rest/Go Out/Catch-Up</td>
+  <td colspan="4" rowspan="2">Rest/Go Out/Catch-Up</td>
+  <td colspan="3" rowspan="2">Rest/Catch-Up</td>
+  </tr>
+
+  <tr>
+  <th class="days"> Sunday</th>
+  </tr>
